@@ -48,6 +48,7 @@
                         android:scaleType="fitStart"
                         android:padding="16dp"/>
                     <TextView
+
                         android:id="@+id/textCategory"
                         android:layout_toRightOf="@id/imageCategory"
                         android:layout_toEndOf="@id/imageCategory"

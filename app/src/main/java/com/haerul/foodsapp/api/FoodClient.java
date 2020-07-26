@@ -8,7 +8,6 @@ package com.haerul.foodsapp.api;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.haerul.foodsapp.utils.NullOnEmptyConverterFactory;
 
 import java.util.concurrent.TimeUnit;
 
@@ -19,6 +18,8 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class FoodClient {
+
+    //https://www.toptal.com/android/android-apps-mvvm-with-clean-architecture
 
     private static final String BASE_URL = "https://www.themealdb.com/api/json/v2/1/";
 

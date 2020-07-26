@@ -30,6 +30,8 @@
                 android:background="@color/colorPrimary" />
 
             <TextView
+                android:fontFamily="@font/montserrat_semibold"
+
                 android:id="@+id/title"
                 android:textColor="@color/colorWhite"
                 android:text="@string/app_name"
@@ -78,6 +80,8 @@
                 layout="@layout/item_view_pager_header_shimmer" />
 
             <TextView
+                android:fontFamily="@font/montserrat_semibold"
+
                 android:id="@+id/titleCategory"
                 android:text="@string/meal_categories"
                 android:textSize="19sp"
