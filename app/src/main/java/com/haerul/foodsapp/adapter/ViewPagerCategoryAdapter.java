@@ -12,8 +12,8 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.haerul.foodsapp.model.Categories;
-import com.haerul.foodsapp.view.category.CategoryFragment;
+import com.haerul.foodsapp.remote.model.Categories;
+import com.haerul.foodsapp.ui.category.CategoryFragment;
 
 import java.util.List;
 

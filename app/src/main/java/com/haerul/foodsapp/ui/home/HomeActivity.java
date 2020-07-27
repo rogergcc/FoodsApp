@@ -4,7 +4,7 @@
  - Subscribe : https://www.youtube.com/haerulmuttaqin                         -
  - Copyright (c) 2019. All rights reserved                                    -
  -----------------------------------------------------------------------------*/
-package com.haerul.foodsapp.view.home;
+package com.haerul.foodsapp.ui.home;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,18 +14,15 @@ import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.haerul.foodsapp.R;
-import com.haerul.foodsapp.Utils;
+import com.haerul.foodsapp.common.Utils;
 import com.haerul.foodsapp.adapter.RecyclerViewHomeAdapter;
 import com.haerul.foodsapp.adapter.ViewPagerHeaderAdapter;
-import com.haerul.foodsapp.model.Categories;
-import com.haerul.foodsapp.model.Meals;
-import com.haerul.foodsapp.view.category.CategoryActivity;
-import com.haerul.foodsapp.view.detail.DetailActivity;
-
-import org.w3c.dom.Text;
+import com.haerul.foodsapp.remote.model.Categories;
+import com.haerul.foodsapp.remote.model.Meals;
+import com.haerul.foodsapp.ui.category.CategoryActivity;
+import com.haerul.foodsapp.ui.detail.DetailActivity;
 
 import java.io.Serializable;
 import java.util.List;

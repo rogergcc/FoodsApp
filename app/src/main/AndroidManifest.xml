@@ -18,7 +18,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".view.home.HomeActivity"
+            android:name=".ui.home.HomeActivity"
             android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,14 +28,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.category.CategoryActivity"
+            android:name=".ui.category.CategoryActivity"
             android:theme="@style/AppTheme"
             android:screenOrientation="portrait"
             android:label="Category"/>
         <!--TODO #1 Add DetailActivity -->
 
         <activity
-            android:name=".view.detail.DetailActivity"
+            android:name=".ui.detail.DetailActivity"
             android:theme="@style/AppTheme.NoActionBar"
             />
     </application>

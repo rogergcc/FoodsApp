@@ -4,10 +4,10 @@
  - Subscribe : https://www.youtube.com/haerulmuttaqin                         -
  - Copyright (c) 2019. All rights reserved                                    -
  -----------------------------------------------------------------------------*/
-package com.haerul.foodsapp.view.home;
+package com.haerul.foodsapp.ui.home;
 
-import com.haerul.foodsapp.model.Categories;
-import com.haerul.foodsapp.model.Meals;
+import com.haerul.foodsapp.remote.model.Categories;
+import com.haerul.foodsapp.remote.model.Meals;
 
 import java.util.List;
 

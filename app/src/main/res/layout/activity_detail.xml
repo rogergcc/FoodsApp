@@ -15,7 +15,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     android:background="@color/colorBackground"
-    tools:context=".view.detail.DetailActivity">
+    tools:context=".ui.detail.DetailActivity">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar"

@@ -4,7 +4,7 @@
  - Subscribe : https://www.youtube.com/haerulmuttaqin                         -
  - Copyright (c) 2019. All rights reserved                                    -
  -----------------------------------------------------------------------------*/
-package com.haerul.foodsapp.view.detail;
+package com.haerul.foodsapp.ui.detail;
 
 import android.content.Intent;
 import android.graphics.PorterDuff;
@@ -26,14 +26,14 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.haerul.foodsapp.R;
-import com.haerul.foodsapp.Utils;
-import com.haerul.foodsapp.model.Meals;
+import com.haerul.foodsapp.common.Utils;
+import com.haerul.foodsapp.remote.model.Meals;
 import com.squareup.picasso.Picasso;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-import static com.haerul.foodsapp.view.home.HomeActivity.EXTRA_DETAIL;
+import static com.haerul.foodsapp.ui.home.HomeActivity.EXTRA_DETAIL;
 
 public class DetailActivity extends AppCompatActivity implements DetailView {
 

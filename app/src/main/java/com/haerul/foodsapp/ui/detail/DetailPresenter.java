@@ -4,13 +4,12 @@
  - Subscribe : https://www.youtube.com/haerulmuttaqin                         -
  - Copyright (c) 2019. All rights reserved                                    -
  -----------------------------------------------------------------------------*/
-package com.haerul.foodsapp.view.detail;
+package com.haerul.foodsapp.ui.detail;
 
-import android.support.annotation.NonNull;
 import android.util.Log;
 
-import com.haerul.foodsapp.Utils;
-import com.haerul.foodsapp.model.Meals;
+import com.haerul.foodsapp.common.Utils;
+import com.haerul.foodsapp.remote.model.Meals;
 
 import retrofit2.Call;
 import retrofit2.Callback;

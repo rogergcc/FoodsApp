@@ -4,7 +4,7 @@
  - Subscribe : https://www.youtube.com/haerulmuttaqin                         -
  - Copyright (c) 2019. All rights reserved                                    -
  -----------------------------------------------------------------------------*/
-package com.haerul.foodsapp.model;
+package com.haerul.foodsapp.remote.model;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

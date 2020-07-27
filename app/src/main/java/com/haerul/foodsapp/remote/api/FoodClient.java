@@ -4,7 +4,7 @@
  - Subscribe : https://www.youtube.com/haerulmuttaqin                         -
  - Copyright (c) 2019. All rights reserved                                    -
  -----------------------------------------------------------------------------*/
-package com.haerul.foodsapp.api;
+package com.haerul.foodsapp.remote.api;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -22,9 +22,20 @@ public class FoodClient {
     //https://www.toptal.com/android/android-apps-mvvm-with-clean-architecture
 
     private static final String BASE_URL = "https://www.themealdb.com/api/json/v2/1/";
+    private static final String BASE_DRINKS_URL = "https://www.thecocktaildb.com/api/json/v2/1/";
+
 
     public static Retrofit getFoodClient() {
         return new Retrofit.Builder().baseUrl(BASE_URL)
+                .client(provideOkHttp())
+                .addConverterFactory(GsonConverterFactory.create())
+//                .addConverterFactory(new NullOnEmptyConverterFactory())
+//                .addConverterFactory(GsonConverterFactory.create(getGsonViaBuilder()))
+                .build();
+    }
+
+    public static Retrofit getDrinkClient() {
+        return new Retrofit.Builder().baseUrl(BASE_DRINKS_URL)
                 .client(provideOkHttp())
                 .addConverterFactory(GsonConverterFactory.create())
 //                .addConverterFactory(new NullOnEmptyConverterFactory())

@@ -16,7 +16,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.haerul.foodsapp.R;
-import com.haerul.foodsapp.model.Meals;
+import com.haerul.foodsapp.remote.model.Meals;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;

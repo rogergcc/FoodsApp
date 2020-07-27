@@ -16,24 +16,25 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.haerul.foodsapp.R;
+import com.haerul.foodsapp.remote.model.Drinks;
 import com.haerul.foodsapp.remote.model.Meals;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
-public class ViewPagerHeaderAdapter extends PagerAdapter {
+public class ViewPagerHeaderDrinksAdapter extends PagerAdapter {
 
-    private List<Meals.Meal> meals;
+    private List<Drinks> meals;
     private Context context;
     private static ClickListener clickListener;
 
-    public ViewPagerHeaderAdapter(List<Meals.Meal> meals, Context context) {
+    public ViewPagerHeaderDrinksAdapter(List<Drinks> meals, Context context) {
         this.meals = meals;
         this.context = context;
     }
 
     public void setOnItemClickListener(ClickListener clickListener) {
-        ViewPagerHeaderAdapter.clickListener = clickListener;
+        ViewPagerHeaderDrinksAdapter.clickListener = clickListener;
     }
 
     @Override
@@ -58,10 +59,10 @@ public class ViewPagerHeaderAdapter extends PagerAdapter {
         ImageView mealThumb = view.findViewById(R.id.mealThumb);
         TextView mealName = view.findViewById(R.id.mealName);
 
-        String strMealThumb = meals.get(position).getStrMealThumb();
+        String strMealThumb = meals.get(position).getStrdrinkthumb();
         Picasso.get().load(strMealThumb).into(mealThumb);
 
-        String strMealName = meals.get(position).getStrMeal();
+        String strMealName = meals.get(position).getStrdrink();
         mealName.setText(strMealName);
 
         view.setOnClickListener(v -> clickListener.onClick(v, position));
