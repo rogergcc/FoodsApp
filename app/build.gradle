@@ -32,28 +32,30 @@ android {
         basic {
             applicationId "com.haerul.foodsapp2.basic"
             buildConfigField("String", "BASE_URL", "\"http://www.basic.com\"")
+            buildConfigField("String", "APP_NAME", "\"BASIC\"")
         }
 
-        api2 {
-            applicationId "com.haerul.foodsapp2.api2"
-            buildConfigField("String", "BASE_URL", "\"http://www.api2.com\"")
+        drink {
+            applicationId "com.haerul.foodsapp2.drink"
+            buildConfigField("String", "BASE_URL", "\"http://www.drink.com\"")
+            buildConfigField("String", "APP_NAME", "\"DRINK API\"")
         }
-//        sales{
-//            applicationId "com.haerul.foodsapp2.sales"
-//            buildConfigField("String","BASE_URL","\"http://www.sales.com\"")
-//        }
-//        marketing{
-//            applicationId "com.haerul.foodsapp2.marketing"
-//            buildConfigField("String","BASE_URL","\"http://www.marketing.com\"")
-//        }
-//        free{
-//            applicationId "com.haerul.foodsapp2.free"
-//            buildConfigField("String","BASE_URL","\"http://www.free.com\"")
-//        }
-//        paid{
-//            applicationId "com.haerul.foodsapp2.paid"
-//            buildConfigField("String","BASE_URL","\"http://www.paid.com\"")
-//        }
+            //        sales{
+            //            applicationId "com.haerul.foodsapp2.sales"
+            //            buildConfigField("String","BASE_URL","\"http://www.sales.com\"")
+            //        }
+            //        marketing{
+            //            applicationId "com.haerul.foodsapp2.marketing"
+            //            buildConfigField("String","BASE_URL","\"http://www.marketing.com\"")
+            //        }
+            //        free{
+            //            applicationId "com.haerul.foodsapp2.free"
+            //            buildConfigField("String","BASE_URL","\"http://www.free.com\"")
+            //        }
+            //        paid{
+            //            applicationId "com.haerul.foodsapp2.paid"
+            //            buildConfigField("String","BASE_URL","\"http://www.paid.com\"")
+            //        }
     }
 }
 
